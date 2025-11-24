@@ -6,7 +6,7 @@
       "run": "python tests/run_tests.py --compile-only",
       "input": "",
       "output": "Compilation succeeded.",
-      "comparison": "included",
+      "comparison": "contains",
       "timeout": 60,
       "points": 15
     },
@@ -16,7 +16,7 @@
       "run": "python tests/run_tests.py --functional",
       "input": "",
       "output": "All required statistics detected and validated.",
-      "comparison": "included",
+      "comparison": "contains",
       "timeout": 60,
       "points": 85
     }

@@ -28,7 +28,7 @@ jobs:
           test-name: Build
           command: python tests/run_tests.py --compile-only
           expected-output: Compilation succeeded.
-          comparison-method: included
+          comparison-method: contains
           timeout: 5
           max-score: 15
 
@@ -39,7 +39,7 @@ jobs:
           test-name: Dino Statistics
           command: python tests/run_tests.py --functional
           expected-output: All required statistics detected and validated.
-          comparison-method: included
+          comparison-method: contains
           timeout: 5
           max-score: 85
 
