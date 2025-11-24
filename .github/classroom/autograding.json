@@ -1,0 +1,27 @@
+{
+  "tests": [
+    {
+      "name": "Build",
+      "setup": "",
+      "run": "python tests/run_tests.py --compile-only",
+      "input": "",
+      "output": "Compilation succeeded.",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 15
+    },
+    {
+      "name": "Dino Statistics",
+      "setup": "",
+      "run": "python tests/run_tests.py --functional",
+      "input": "",
+      "output": "All required statistics detected and validated.",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 85
+    }
+  ],
+  "setup": "",
+  "teardown": "",
+  "version": 0
+}
